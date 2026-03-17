@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Monitoramento de Temperatura</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="temperatura_atualizada">Temperatura Atualizada</string>
+    <string name="_5_c">5°C</string>
+    <string name="hor_rio_da_atualiza_o">Horário da Atualização</string>
+    <string name="_12_00">12:00</string>
+    <string name="perfil">Perfil</string>
+    <string name="enter">ENTER</string>
+    <string name="digite_o_codigo_de_seguran_a">Digite o codigo de segurança</string>
+    <string name="temperatura_maxima">Temperatura Máxima</string>
+    <string name="temperatura_minima">Temperatura Mínima</string>
+    <string name="acessar_o_sheets">Acessar o Sheets</string>
+    <string name="temperatura_externa">Temperatura Externa</string>
+    <string name="horario_zero">00:00</string>
+    <string name="temperatura_zero">0</string>
+    <string name="no_ntwk_connection">No network connection available.</string>
+    <string name="erro">ERRO</string>
+</resources>
