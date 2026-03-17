@@ -1,0 +1,61 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "30.0.1"
+
+    defaultConfig {
+        applicationId "ufsc.monitoramentodetemperatura"
+        minSdkVersion 22
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/ASL2.0'
+        exclude("META-INF/*.kotlin_module")
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
+
+    implementation 'com.google.android.gms:play-services-auth:18.1.0'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
+    implementation 'com.android.volley:volley:1.1.0'
+    implementation('com.google.apis:google-api-services-drive:v3-rev136-1.25.0'){
+        exclude group: 'org.apache.httpcomponents'
+    }
+    implementation('com.google.api-client:google-api-client-android:1.30.10'){
+        exclude group: 'org.apache.httpcomponents'
+    }
+    implementation 'pub.devrel:easypermissions:0.3.0'
+    implementation('com.google.apis:google-api-services-sheets:v4-rev506-1.23.0'){
+        exclude group: 'org.apache.httpcomponents'
+    }
+    implementation 'com.google.oauth-client:google-oauth-client-jetty:1.23.0'
+
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+}
