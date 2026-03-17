@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/addone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="310dp"
+        tools:layout_editor_absoluteY="14dp"
+        android:text="@string/limpeza_apartamento"
+        />
+
+    <Button
+        android:id="@+id/addtwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addone"
+        android:text="@string/limpeza_casa"
+        />
+    <Button
+        android:id="@+id/addthree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addtwo"
+        android:text="@string/limpeza_su_te"
+        />
+
+</RelativeLayout>
