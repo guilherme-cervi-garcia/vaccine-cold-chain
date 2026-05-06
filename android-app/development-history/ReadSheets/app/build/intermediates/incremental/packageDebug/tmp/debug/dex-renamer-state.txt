@@ -1,0 +1,4 @@
+#Sun Sep 13 20:28:16 BRT 2020
+base.0=C\:\\Users\\guilh\\AndroidStudioProjects\\ReadSheets\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

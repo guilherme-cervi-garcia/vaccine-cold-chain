@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Controle_de_Orcamento.iml" filepath="$PROJECT_DIR$/.idea/modules/Controle_de_Orcamento.iml" group="Controle_de_Orcamento" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="Controle de Orcamento/app" />
+    </modules>
+  </component>
+</project>
